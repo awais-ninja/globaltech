@@ -2,9 +2,8 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Link from "../primitives/Link";
-import logo from "@/public/globaltech.svg";
-import Image from "next/image";
 import NavData from "@/app/data/navData";
+import Logo from "../primitives/Logo";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,11 +13,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-slate-100 fixed w-full z-20 top-0 left-0 shadow-md">
+    <nav className="bg-slate-100  w-full z-20 top-0 left-0 shadow-md">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link href="/">
-          <Image src={logo} width={200} height={200} alt="GlobalTech Logo" />
-        </Link>
+        <Logo />
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link
             href="/contact"

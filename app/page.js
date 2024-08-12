@@ -1,9 +1,16 @@
-import Navigation from "./components/navigation/Navigation";
-
 export default function Home() {
   return (
     <main>
-      <Navigation />
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
     </main>
   );
 }

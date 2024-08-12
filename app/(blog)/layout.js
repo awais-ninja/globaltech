@@ -1,5 +1,8 @@
-const page = () => {
-  return <div>page</div>;
+const Layout = ({ children }) => {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
 };
-
-export default page;
+export default Layout;
